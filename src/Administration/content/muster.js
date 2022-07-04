@@ -1,8 +1,7 @@
 import { WeChatList } from "./WechatApplet";
 import { Vue2List } from "./Vue2List";
 import {Vue3List} from "./Vue3List";
-import {Universal} from "./Universal"
-
+import {Universal} from "./Universal";
 // export {
 //     WeChatList,
 //     VueList
@@ -13,4 +12,5 @@ export default {
   Vue2List,
   Vue3List,
   Universal,
+  
 };

@@ -3,12 +3,33 @@ export default {
     namespaced: true, // 开启命名空间
     state() {
         return {
-            
+            WeChatList: {
+                currentPage: 1,    //当前页数
+                totaltPage: null,  //总页数
+                pageSize: 5,
+            },
+            Vue2List: {
+                currentPage: 1,    //当前页数
+                totaltPage: null,  //总页数
+                pageSize: 5,
+            },
+            Vue3List: {
+                currentPage: 1,    //当前页数
+                totaltPage: null,  //总页数
+                pageSize: 5,
+            },
+            Universal: {
+                currentPage: 1,    //当前页数
+                totaltPage: null,  //总页数
+                pageSize: 5,
+            }
+
         }
     },
     mutations: {
         // 定义mutations，用于同步修改状态
-        alterType(state, payload) {
+        //初始化总页数
+        pageChange(state, payload) {
             state.articleType = payload
         },
 
