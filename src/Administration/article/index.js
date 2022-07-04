@@ -4,6 +4,7 @@ import WxGis from "./WeChat/wx-Gis.md";
 import WxWatch from "./WeChat/wx-watch.md";
 import WxEcharts  from "./WeChat/wx-echarts.md"
 import Vue2Animation from "./Vue2/vue2-animation.md";
+import Vue2Template from "./Vue2/vue2-template.md"
 import Vue3MonitorVuex from "./Vue3/vue3-monitorVuex.md";
 import Vue3AlterStyle from "./Vue3/vue3-alterStyle.md";
 import Vue3Markdown from "./Vue3/vue3-markdown.md";
@@ -52,6 +53,15 @@ export const components = {
   Vue2Animation:{
     id: 4,
     name: Vue2Animation,
+    blogDescribe: "",
+    blogTitle: "",
+    classifyId: "vue2",
+    createDate: "2022-6-12 20:11:13",
+    markdownContent: "",
+  },
+  Vue2Template:{
+    id: 4,
+    name: Vue2Template,
     blogDescribe: "",
     blogTitle: "",
     classifyId: "vue2",

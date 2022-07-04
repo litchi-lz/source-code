@@ -32,30 +32,30 @@ const WeChatList = [
     createDate: "2022-6-30 15:19",
     watchCount: 51
   },
-  // {
-  //   id: 4,
-  //   blogTitle: "域名不合法",
-  //   blogDescribe:"公众平台配置域名后还是出现域名不合法错误",
-  //   mdId: "WxRequest",
-  //   createDate: "2021-11-12 20:11:13",
-  //   watchCount: 51
-  // },
-  // {
-  //   id: 5,
-  //   blogTitle: "web-view提示已停止访问该网页",
-  //   blogDescribe:"该网页涉及暴力，色情，低俗等内容",
-  //   mdId: "微信小程序",
-  //   createDate: "2021-11-12 20:11:13",
-  //   watchCount: 51
-  // },
-  // {
-  //   id: 6,
-  //   blogTitle: "自定义组件",
-  //   blogDescribe:"数据监听器(observers),纯数据字段(pureDataPattern),组件监听页面的生命周期(pageLifetimes)",
-  //   mdId: "微信小程序",
-  //   createDate: "2021-11-12 20:11:13",
-  //   watchCount: 51
-  // },
+  {
+    id: 4,
+    blogTitle: "域名不合法",
+    blogDescribe:"公众平台配置域名后还是出现域名不合法错误",
+    mdId: "WxRequest",
+    createDate: "2021-11-12 20:11:13",
+    watchCount: 51
+  },
+  {
+    id: 5,
+    blogTitle: "web-view提示已停止访问该网页",
+    blogDescribe:"该网页涉及暴力，色情，低俗等内容",
+    mdId: "微信小程序",
+    createDate: "2021-11-12 20:11:13",
+    watchCount: 51
+  },
+  {
+    id: 6,
+    blogTitle: "自定义组件",
+    blogDescribe:"数据监听器(observers),纯数据字段(pureDataPattern),组件监听页面的生命周期(pageLifetimes)",
+    mdId: "微信小程序",
+    createDate: "2021-11-12 20:11:13",
+    watchCount: 51
+  },
 ];
 export {
   WeChatList

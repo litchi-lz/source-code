@@ -1,4 +1,4 @@
-<template>
+<template >
   <div class="blog-content">
     <template v-for="(item, i) in blogs" v-if="blogs">
       <div class="synopsis " @click="goDetails(item)">
@@ -18,29 +18,15 @@
       <div class="null-empty">
         <el-empty :image-size="200" />
       </div>
-    </template>
-    <div class="box">
-      <template>
-          <el-button type="primary">Primary</el-button>
-      </template>
-    </div>
+    </template> 
   </div>
 </template>
 <script>
 import "hover.css";
-import "prismjs/themes/prism.css";
-import "@toast-ui/editor-plugin-code-syntax-highlight/dist/toastui-editor-plugin-code-syntax-highlight.css";
-import Prism from "prismjs";
-import "../../assets/css/toastui-editor-plugin-code-syntax-highlight.css";
-import "../../assets/font.css";
-import "../../assets/font/font-icon/iconfont.css";
-import "@toast-ui/editor/dist/toastui-editor.css";
-
 import muster from "../../Administration/content/muster";
 import { useStore } from "vuex";
 import { useRouter, useRoute } from "vue-router";
 import { reactive, toRefs, onBeforeMount, onMounted, watch, computed, watchEffect, onBeforeUnmount } from "vue";
-import { ElLoading,ElPagination } from "element-plus";
 export default {
   setup(props) {
     const router = useRouter();
@@ -51,6 +37,7 @@ export default {
       let aType = store.state.article.articleType;
       OverviewList.sketchType = aType;
       OverviewList.blogs = muster[aType];
+      console.log(store.state.base)
     });
     const OverviewList = reactive({
       blogs: [],
@@ -85,6 +72,7 @@ export default {
       goDetails,
     };
   },
+  components: {  },
 };
 </script>
 <style lang="less" scoped>

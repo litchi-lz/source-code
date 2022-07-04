@@ -9,6 +9,15 @@ const Vue2List = [
       watchCount: 51
     },
     {
+      id: 1,
+      blogTitle: "template标签使用不恰当问题",
+      blogDescribe:"template标签使用不恰当导致标签内组件内容等无法正常显示(vue2与vue3通用)",
+      mdId: "vue2-template",
+      createDate: "2022-7-4 10:40",
+      addtrss:'https://blog.csdn.net/sunhuaqiang1/article/details/111033797',
+      watchCount: 51
+    },
+    {
       id: 2,
       blogTitle: "调试台无法选中该DOM",
       blogDescribe:"层级为一个原因",
